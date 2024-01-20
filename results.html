@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <style>
+      *{
+          font-family: 'Outfit', sans-serif;
+      }
+
+      /* For Webkit-based browsers (Chrome, Safari and Opera) */
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+
+      /* For IE, Edge and Firefox */
+      .scrollbar-hide {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+
+      @media (max-width: 520px) {
+          html{
+              font-size: 12px;
+          }
+      }
+
+      @media (max-width: 1220px) {
+          html{
+              font-size: 14px;
+          }
+      }
+        
+    </style>
+
+    <title>News App</title>
+  </head>
+<body>
+
+  <div class="container mx-auto px-5 py-10">
+    <div class="w-full md:w-4/5 mx-auto flex items-center gap-8 px-8 py-2 border-b-2 mb-10">
+        <input type="text" id="search" name="search" placeholder="Search News, Articles" class="w-full border-none outline-none text-2xl font-bold rounded-2xl">
+        <button class="px-2 py-2 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>              
+        </button>
+    </div>
+
+    <div class="w-full mx-auto">
+        <div class="w-full">
+            <h3 class="text-xl font-medium px-5">Result for "<span>Lorem ipsum dolor sit amet.</span>"</h3>
+            <section class="text-gray-600 body-font overflow-hidden">
+                <div class="container px-5 py-10 mx-auto">
+                  <div class="-my-8 divide-y-2 divide-gray-100">
+                    <div class="py-8 flex flex-wrap md:flex-nowrap">
+                      <div class="w-full md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <img class="w-[90%] h-full object-cover" src="./Images/demo4.jpeg" alt="">
+                      </div>
+                      <div class="md:flex-grow">
+                        <a href=""><span class="text-sm text-blue-600 hover:border-b-2 border-blue-600">Politics</span></a>
+                        <a href=""><h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2></a>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                        <div class="flex items-center gap-4 mt-4 divide-x-2">
+                            <a href="" class="text-indigo-500 inline-flex items-center text-sm">Author Name</a>
+                            <span class="text-sm text-gray-400 pl-4">2/15/2023 6:22:05 AM</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="py-8 flex flex-wrap md:flex-nowrap">
+                        <div class="w-full md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                          <img class="w-[90%] h-full object-cover" src="./Images/demo4.jpeg" alt="">
+                        </div>
+                        <div class="md:flex-grow">
+                          <a href=""><span class="text-sm text-blue-600 hover:border-b-2 border-blue-600">Politics</span></a>
+                          <a href=""><h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2></a>
+                          <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                          <div class="flex items-center gap-4 mt-4 divide-x-2">
+                              <a href="" class="text-indigo-500 inline-flex items-center text-sm">Author Name</a>
+                              <span class="text-sm text-gray-400 pl-4">2/15/2023 6:22:05 AM</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="py-8 flex flex-wrap md:flex-nowrap">
+                        <div class="w-full md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                          <img class="w-[90%] h-full object-cover" src="./Images/demo4.jpeg" alt="">
+                        </div>
+                        <div class="md:flex-grow">
+                          <a href=""><span class="text-sm text-blue-600 hover:border-b-2 border-blue-600">Politics</span></a>
+                          <a href=""><h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2></a>
+                          <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                          <div class="flex items-center gap-4 mt-4 divide-x-2">
+                              <a href="" class="text-indigo-500 inline-flex items-center text-sm">Author Name</a>
+                              <span class="text-sm text-gray-400 pl-4">2/15/2023 6:22:05 AM</span>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+  </div>
+  
+</body>
+</html>
